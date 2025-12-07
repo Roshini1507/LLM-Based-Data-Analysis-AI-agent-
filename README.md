@@ -35,11 +35,6 @@ streamlit run app.py
 ## Notes about Gemini usage
 This project uses a simple HTTP wrapper (`gemini_client.py`) targeted at Google's Generative Language API endpoints as the default Gemini interface. Depending on the exact Gemini API you have access to, you may need to adjust the endpoints and the request shape inside `gemini_client.py` and `embeddings` functions. The code includes comments showing where to change model names and endpoints.
 
-If you want help plugging your exact Gemini endpoint and keys into the code, tell me your Gemini model name (e.g., `gemini-2.5-pro`) and I'll provide the exact request shape for that API.
-
 ## Security
 - **Do not commit actual keys to a public repo.** Use the `.streamlit/secrets.toml` or environment variables in production.
 - For Streamlit Cloud, add your keys in the App's Secrets settings rather than committing them.
-
----
-Good luck! If you want, I can now (a) run a quick smoke test here (without keys it will only run dry checks), or (b) update the Gemini wrapper to match a specific endpoint you give me.
