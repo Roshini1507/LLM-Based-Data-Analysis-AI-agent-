@@ -1,0 +1,15 @@
+streamlit==1.26.0
+pandas
+numpy
+pyarrow
+pdfplumber
+pillow
+pytesseract
+langchain
+pinecone
+requests
+plotly
+python-dotenv
+scikit-learn
+pyreadline3
+tqdm
