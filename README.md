@@ -1,4 +1,4 @@
-# Data Analysis RAG Agent (Streamlit + Gemini + Pinecone)
+# Data Analysis AI Agent (Streamlit + Gemini + Pinecone)
 
 This project is a Streamlit-based Retrieval-Augmented-Generation (RAG) Data Analysis Agent that:
 - Accepts CSV / Excel / JSON / PDF uploads
